@@ -1,0 +1,135 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Serra Gaúcha</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+  <header>
+    <h1>Café Serra Gaúcha</h1>
+    <h3>O melhor em um só lugar!</h3>
+  </header>
+  <section class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/Gastronomia Delivery_ VAI UM CAFEZINHO AI_.png" alt="Café Caseiro">
+        <a href="pgcaseiro.html">Café Caseiro</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/Cappucino.jpg" alt="Cappucino">
+        <a href="pgcappucino.html">Cappucino</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/italiano.jpg" alt="Café Italiano">
+        <a href="pgitaliano.html">Café Italiano</a>
+      </div>
+      <div class="swiper-slide">
+        <img src="images/cafe-extra.jpg" alt="Extra Forte">
+        <a href="pgextraforte.html">Extra Forte</a>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #5a3825;
+  color: #3c2c1e;
+  text-align: center;
+}
+header {
+  background-color: #5a3825;
+  color: white;
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+}
+
+section.swiper-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-right: 15vw;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.swiper-slide img {
+  max-width: 100%;
+  height: 200px;
+  border-radius: 8px;
+}
+.swiper-slide a {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #5a3825;
+  text-decoration: none;
+}
+.swiper-slide a:hover {
+  color: #8b5e3c;
+}
+
+.swiper-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+}
+
+/* Receita Pages */
+.receita-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.receita-container h1 {
+  font-family: 'Times New Roman', serif;
+}
+.receita-container img {
+  height: 150px;
+  border-radius: 8px;
+}
+.receita-container h3 {
+  color: #5a3825;
+}
+.receita-container p {
+  font-size: 1rem;
+}
+.receita-container a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5a3825;
+  text-decoration: none;
+  font-weight: bold;
+}
+.receita-container a:hover {
+  color: #8b5e3c;
+}
+</style>
+
+ 

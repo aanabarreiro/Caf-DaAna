@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #5a3825;
+    color: #3c2c1e;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #5a3825;
+    color: white;
+    padding: 20px;
+    font-family: 'Times New Roman', serif;
+  }
+  
+  .receita-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .receita-container h1 {
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 10px;
+  }
+  
+  .receita-container img {
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .receita-container h3 {
+    color: #5a3825;
+    margin-top: 20px;
+  }
+  
+  .receita-container p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+
+  .receita-container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #5a3825;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #5a3825;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .receita-container a:hover {
+    background-color: #5a3825;
+    color: white;
+  }
+  
+  a {
+    transition: color 0.3s ease;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 20px 0;
+  }
+header {
+  background-color: #5a3825;
+  color: white;
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+}
+.swiper-container {
+  width: 10%;
+  max-width: 800px;
+  margin: 40px auto;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.swiper-slide a {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #5a3825;
+  text-decoration: none;
+}
+.swiper-slide a:hover {
+  color: #8b5e3c;
+}
+
+.receita-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.receita-container h1 {
+  font-family: 'Times New Roman', serif;
+}
+.receita-container img {
+  height: 150px;
+  border-radius: 8px;
+}
+.receita-container h3 {
+  color: #5a3825;
+}
+.receita-container p {
+  font-size: 1rem;
+}
+.receita-container a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #5a3825;
+  text-decoration: none;
+  font-weight: bold;
+}
+.receita-container a:hover {
+  color: #8b5e3c;
+}  
